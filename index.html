@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Syed Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div class="header"> 
+            <nav>
+                <h3>Syed Amin</h3>
+                
+                <div class="nav-menu" id="navemenus">
+                    <span onclick="hideMenu()">X</span>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Clients</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <input type="text" name="search" placeholder="Search"> 
+                            <input type="submit" name="submit" value="Search">
+                        </li>
+                    </ul>
+                </div> 
+                <span onclick="openMenu()">Menu</span>
+                <img src="image/3.png" class="profile-image">
+            </nav>
+
+            <div class="title-description">
+                <h1>SAH</h1>
+                <p>Hello! My name is Syed Amin. I am currently pursuing a BSc Honours degree at Metropolitan University.<br> 
+                My student ID is 222-115-062. Alongside my academic pursuits, I have practical skills in web development,<br> 
+                which I continuously work to enhance. I am passionate about leveraging technology to create innovative<br> 
+                solutions and am eager to contribute to impactful projects.</p>
+                <a href="#">Hire me</a> &nbsp; <a href="#">About Me</a>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>Phone: 0164292244</p>
+            <p>Email: <a href="mailto:sahsipon@gmail.com">sahsipon@gmail.com</a></p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100084425836173" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/syedamin2023/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/syed-amin-a88b78261/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/0164292244" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var navemenus = document.getElementById('navemenus');
+            function openMenu(){
+                navemenus.style.right = "0";
+            }
+
+            function hideMenu(){
+                navemenus.style.right = "-300px";
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #a1d5ff;
+        }
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 19px;
+            text-align: center;
+            background: #ffffff;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 2px solid #000000;
+        }
+
+        th {
+            background-color: #d0ff25;
+        }
+
+        tr:hover {
+            background-color: #f8bdbd;
+        }
+
+        img {
+            width:50px;
+            height: auto;
+        }
+    </style>
+    <h1>CSE 57-B</h1>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>222-115-043</td>
+            <td>Md. Mihadul Islam</td>
+            <td><img src="https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/329800594_907285497143875_656843023770075824_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEMce5Cv_Y4AGdkPzTody19k-7AyE92cHCT7sDIT3ZwcNVBansE_sWBQV57kOWTvmVnQBYB1c7cgoWXtfoV-a3U&_nc_ohc=y1hW6SIYe4MQ7kNvgFyAGU-&_nc_ht=scontent.fdac13-1.fna&oh=00_AYAO85ttLI6Nnhkb4aZ0e0jpko-hdBEy6g5_TkMpH8HZEA&oe=669DD903" alt="Md. Mihadul Islam"></td>
+        </tr>
+        <tr>
+            <td>222-115-044</td>
+            <td>Nadia Jannat Chowdhury</td>
+            <td><img src="https://us.123rf.com/450wm/meenna/meenna2004/meenna200400121/145060701-beautiful-muslim-women-with-niqab-cartoon-of-islamic-women-in-niqab.jpg" alt="Nadia Jannat Chowdhury"></td>
+        </tr>
+        <tr>
+            <td>222-115-045</td>
+            <td>Mst. Samia Begum</td>
+            <td><img src="https://i.pinimg.com/736x/73/a8/ba/73a8baebc7fdffcc079db7424efcd281.jpg" alt="Mst. Samia Begum"></td>
+        </tr>
+        <tr>
+            <td>222-115-046</td>
+            <td>Tamanna Sanjana Toma</td>
+            <td><img src="https://i.pinimg.com/736x/2b/d0/81/2bd081b73bf168046abaee42996abef9.jpg" alt="Tamanna Sanjana Toma"></td>
+        </tr>
+        <tr>
+            <td>222-115-049</td>
+            <td>Jakia Habiba</td>
+            <td><img src="https://i.pinimg.com/736x/e9/d8/20/e9d820c2d46f5dfbdc59ab03161c4973.jpg" alt="Jakia Habiba"></td>
+        </tr>
+        <tr>
+            <td>222-115-051</td>
+            <td>Mohona Chowdhury</td>
+            <td><img src="https://thumbs.dreamstime.com/b/cute-girl-princess-generate-ai-cute-girl-princess-asian-female-generate-ai-290974524.jpg" alt="Mohona Chowdhury"></td>
+        </tr>
+        <tr>
+            <td>222-115-052</td>
+            <td>Anika Islam Oishi</td>
+            <td><img src="https://as2.ftcdn.net/v2/jpg/05/80/76/99/1000_F_580769977_W7OsFCULDyBJkyfq9hAXD7uozmb6uwXT.jpg" alt="Anika Islam Oishi"></td>
+        </tr>
+        <tr>
+            <td>222-115-053</td>
+            <td>Tashfiya Aktar Jannath</td>
+            <td><img src="https://i.pinimg.com/736x/01/22/7d/01227daa7b94e34234ec74bcdb85d257.jpg" alt="Tashfiya Aktar Jannath"></td>
+        </tr>
+        <tr>
+            <td>222-115-054</td>
+            <td>Fatema Begum</td>
+            <td><img src="https://i.pinimg.com/474x/5f/8d/3c/5f8d3c2c3c484c2266fb09269bf47ee6.jpg" alt="Fatema Begum"></td>
+        </tr>
+        <tr>
+            <td>222-115-056</td>
+            <td>Mahmudul Haque Qudrati</td>
+            <td><img src="https://scontent.fdac13-1.fna.fbcdn.net/v/t1.6435-9/198576965_116541383986113_8133385375443130127_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFHqbxi0iA5yBZxnfKqOUyJXl9-g46_XI9eX36Djr9cj3yyVrykfPP8eNuwOLCIeswPq8LqYTgKWuHrDg2InY8O&_nc_ohc=S7Y5NokzLBQQ7kNvgGnmQ0P&_nc_ht=scontent.fdac13-1.fna&oh=00_AYC97rvBc9UYE-qHyZHzlkVt9CibdbXMr9ghA0Hbeq63gQ&oe=66BF93E8" alt="Mahmudul Haque Qudrati"></td>
+        </tr>
+        <tr>
+            <td>222-115-061</td>
+            <td>Thauhid Hussain Chowdhury</td>
+            <td><img src="https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/283132178_959853748035046_3559748498854794789_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHFPl-95NT7VEX0noWqSQFkuXJPQQZkxBm5ck9BBmTEGV1Mict6BzAjRFJeICkCX-18HULmt3PbmlqYgszkFzQm&_nc_ohc=gUx7xnVDemsQ7kNvgGf1Tmc&_nc_ht=scontent.fdac13-1.fna&oh=00_AYDjm9ZSkFFWRs5uux4MODy45iMTx39PMt8BIxeCCcMdrQ&oe=669DD32C" alt="Thauhid Hussain Chowdhury"></td>
+        </tr>
+        <tr>
+            <td>222-115-062</td>
+            <td>Syed Amin Hussain</td>
+            <td><img src="https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/349819860_642670297257294_7874510247748462916_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFsH5xTUaJI2DsDpc8-6ESx0ZD__reXZuDRkP_-t5dm4OgeBvlEAQaH_TqFPK6j-4__xWe59QvWVspLwtXlqGWd&_nc_ohc=Kv3JDpdfP54Q7kNvgGZrRfZ&_nc_ht=scontent.fdac13-1.fna&oh=00_AYDtUb2dvQwhIkWbMRbYETxwcu9RXXIJNVquDjeZ33vhbg&oe=669DF3B7" alt="Syed Amin Hussain"></td>
+        </tr>
+        <tr>
+            <td>222-115-063</td>
+            <td>Al-arafat Hussain Sabbir</td>
+            <td><img src="https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/437364887_2245097509215468_8458597931816381864_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEr8ljDAozF0PXt29R_rvRcdj5yUSdxHiN2PnJRJ3EeIza-5TbNihnkK6l5gl9_n1Ks_ugyCshUMo_PxKiiwyws&_nc_ohc=AqMzoPLo5Z4Q7kNvgHPdU5z&_nc_ht=scontent.fdac13-1.fna&oh=00_AYA3qBjEms7_wbnAjuOA1WC4SK3iS7wGX5uiXeObr_o4Gg&oe=669DD757" alt="Al-arafat Hussain Sabbir"></td>
+        </tr>
+        <tr>
+            <td>222-115-065</td>
+            <td>Rifha Tasniya Ome</td>
+            <td><img src="https://static.vecteezy.com/system/resources/previews/018/975/713/original/aesthetic-cute-muslim-girl-with-hijab-flat-detailed-avatar-illustration-beautiful-muslim-woman-hijabi-cartoon-vector.jpg" alt="Rifha Tasniya Ome"></td>
+        </tr>
+        <tr>
+            <td>222-115-066</td>
+            <td>Fatema Zinnah Orpa</td>
+            <td><img src="https://a0.anyrgb.com/pngimg/1398/22/muslim-girl-hijab-islamic-art-muslim-islam-animated-cartoon-manga-black-hair-long-hair-woman.png" alt="Fatema Zinnah Orpa"></td>
+        </tr>
+        <tr>
+            <td>222-115-067</td>
+            <td>Towhida Aktar Panna</td>
+            <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b5d3af19-d685-497b-987f-5fdc2e19e46a/dchefhr-10ace525-a34d-4af5-b2f9-04947e31d798.png/v1/fill/w_1024,h_1024,q_80,strp/bts_girl_by_drawingunicorn66_dchefhr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2I1ZDNhZjE5LWQ2ODUtNDk3Yi05ODdmLTVmZGMyZTE5ZTQ2YVwvZGNoZWZoci0xMGFjZTUyNS1hMzRkLTRhZjUtYjJmOS0wNDk0N2UzMWQ3OTgucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Qw67TKyh8lfnVd3MFdcynZ6HOXNK2CtRs_4OpbgH0xY" alt="Towhida Aktar Panna"></td>
+        </tr>
+        <tr>
+            <td>222-115-071</td>
+            <td>Sahil Uddin Ishmam</td>
+            <td><img src="https://thumbs.dreamstime.com/b/basic-rgb-basic-rgb-219903843.jpg" alt="Sahil Uddin Ishmam"></td>
+        </tr>
+        <tr>
+            <td>222-115-072</td>
+            <td>Monisha Bhattacharjee</td>
+            <td><img src="https://img.freepik.com/premium-photo/cute-little-10-years-girl-sari-illustration-art_862994-15308.jpg" alt="Monisha Bhattacharjee"></td>
+        </tr>
+        <tr>
+            <td>222-115-075</td>
+            <td>Munira Jannat Bente Jalal</td>
+            <td><img src="https://w0.peakpx.com/wallpaper/580/418/HD-wallpaper-islamic-hijab-girl-anime-hijab-girl.jpg" alt="Munira Jannat Bente Jalal"></td>
+        </tr>
+        <tr>
+            <td>222-115-079</td>
+            <td>Md. Sadman Sakib Moon</td>
+            <td><img src="https://media.istockphoto.com/id/164385473/vector/yo-yo-kid.jpg?s=612x612&w=0&k=20&c=OaBrkg8Q3M51Ucw1AzDR5-E3BmldTNaAwAK3JM92dmg=" alt="Md. Sadman Sakib Moon"></td>
+        </tr>
+        <tr>
+            <td>222-115-080</td>
+            <td>Aninda Paul Joy</td>
+            <td><img src="https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/348308067_613428814184587_7090661266473420992_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHu1zyrEdYdYS5LiNLJ318w7nKmYJ0fXjvucqZgnR9eO1iwl_iQkL3_GiLwr6S2SSjaTmZ6l4V5sLxgDu3ONXOg&_nc_ohc=vYK0zY_LBvkQ7kNvgHaYfH8&_nc_ht=scontent.fdac13-1.fna&oh=00_AYArbQRBpVZWoUqaW0RaCvpidCAHFG3L3d9oykUeKNv24w&oe=669DC907" alt="Aninda Paul Joy"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
